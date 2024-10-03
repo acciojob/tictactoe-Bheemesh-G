@@ -20,8 +20,8 @@ function updateMessage(text)
 
 function startGame()
 {
-	player1 = document.getElementById('player-1').value || 'Player 1';
-	player2 = document.getElementById('player-2').value || 'Player 2';
+	player1 = document.getElementById('player-1').value || 'Player1';
+	player2 = document.getElementById('player-2').value || 'Player2';
 
 	// Set the current player to player1 and reset the board
     currentPlayer = player1;

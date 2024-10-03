@@ -50,7 +50,7 @@ function handleCellClick(event) {
         // Check if there is a winner
         const winner = checkWinner();
         if (winner) {
-            updateMessage(`${currentPlayer}, congratulations! You won!`);
+            updateMessage(`${currentPlayer}, congratulations you won!`);
             gameActive = false;
             return;
         }
